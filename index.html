@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product Filter</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="search-box">
+            <form action="">
+                <input type="text" id="search" placeholder="Search here...">
+            </form>
+        </div>
+        <div class="filter-box">
+            <ul>
+                <li data-filter="all" class="active"><a href="#">All</a></li>
+                <li data-filter="camera"><a href="#">Camera</a></li>
+                <li data-filter="headphone"><a href="#">Headphone</a></li>
+                <li data-filter="mobile"><a href="#">Mobile</a></li>
+                <li data-filter="watch"><a href="#">Watch</a></li>
+                <li data-filter="shoe"><a href="#">Shoes</a></li>
+            </ul>
+            <div class="filter-condition">
+                <span>View As a :</span>
+                <select name="" id="select">
+                    <option value="default">Default</option>
+                    <option value="lowtohigh">Low To High</option>
+                    <option value="hightolow">High To Low</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="products">
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/headphone1.jpg" alt="headphone image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">headphone</h3>
+                    <p class="product-price">$ <span>17.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/shoe1.jpg" alt="shoe1 image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">shoe</h3>
+                    <p class="product-price">$ <span>12.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/camera1.jpg" alt="camera image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">camera</h3>
+                    <p class="product-price">$ <span>50.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/headphone2.jpg" alt="headphone image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">headphone</h3>
+                    <p class="product-price">$ <span>46.82</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/camera2.jpg" alt="camera image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">camera</h3>
+                    <p class="product-price">$ <span>68.74</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/mobile1.jpg" alt="mobile image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">mobile</h3>
+                    <p class="product-price">$ <span>99.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/headphone3.jpg" alt="headphone image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">headphone</h3>
+                    <p class="product-price">$ <span>37.75</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/shoe2.jpg" alt="shoe image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">shoe</h3>
+                    <p class="product-price">$ <span>23.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/headphone4.jpg" alt="headphone image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">headphone</h3>
+                    <p class="product-price">$ <span>45.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/mobile2.jpg" alt="mobile image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">mobile</h3>
+                    <p class="product-price">$ <span>55.63</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/mobile3.jpg" alt="mobile image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">mobile</h3>
+                    <p class="product-price">$ <span>63.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/watch1.jpg" alt="watch image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">watch</h3>
+                    <p class="product-price">$ <span>50.63</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/camera3.jpg" alt="camera image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">camera</h3>
+                    <p class="product-price">$ <span>87.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/shoe3.jpg" alt="shoe image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">shoe</h3>
+                    <p class="product-price">$ <span>43.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/watch2.jpg" alt="watch image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">watch</h3>
+                    <p class="product-price">$ <span>69.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/mobile4.jpg" alt="mobile image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">mobile</h3>
+                    <p class="product-price">$ <span>73.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/watch3.jpg" alt="watch image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">watch</h3>
+                    <p class="product-price">$ <span>34.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/mobile5.jpg" alt="mobile image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">mobile</h3>
+                    <p class="product-price">$ <span>100.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/shoe4.jpg" alt="shoe image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">shoe</h3>
+                    <p class="product-price">$ <span>27.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+            <!-- product-->
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/watch4.jpg" alt="watch image">
+                </div>
+                <div class="product-details">
+                    <h3 class="product-title">Watch</h3>
+                    <p class="product-price">$ <span>23.99</span></p>
+                </div>
+                <a href="#" class="btn">Buy Now</a>
+                <div class="icons">
+                    <span><i class="fas fa-heart"></i></span>
+                    <span><i class="fas fa-share"></i></span>
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
